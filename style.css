@@ -88,8 +88,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .calculadora {
-    width: 220px;
-    height: 320px;
+    width: 250px;
+    height: 350px;
   }
 
   .btn2 {
