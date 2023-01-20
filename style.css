@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #d9d9d9;
+}
+
+.contaner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  height: 420px;
+  border: none;
+  padding: 25px;
+  background-color: #2e2e2e;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.row2 {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  gap: 10px;
+}
+
+.btn2 {
+  width: 25%;
+  height: 100%;
+  background-color: #1a1212;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #000;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.btn2:hover {
+  background-color: rgba(26, 18, 18, 0.7);
+}
+
+.clear {
+  width: 55%;
+  height: 100%;
+}
+
+.enter {
+  height: 220%;
+}
+
+.ponto {
+  width: 22%;
+}
+
+.zero {
+  width: 48.5%;
+}
+
+.resultado {
+  font-family: "Dosis", sans-serif;
+  text-align: right;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding: 0 7px;
+  width: 100%;
+  height: 15%;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: 1px 1px 1px #000;
+}
+
+@media screen and (max-width: 768px) {
+  .calculadora {
+    width: 220px;
+    height: 320px;
+  }
+
+  .btn2 {
+    font-size: 15px;
+  }
+
+  .resultado {
+    font-size: 20px;
+  }
+
+  .enter {
+    height: 230%;
+  }
+
+  .ponto {
+    width: 20%;
+  }
+
+  .zero {
+    width: 48%;
+  }
+}

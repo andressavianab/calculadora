@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/calculadora (1).png"/>
+    <link rel="stylesheet" href="style.css">
+	</head>
+
+  <body>
+    <div class="contaner">
+          <div class="calculadora">
+            <input id="resultado" type="text" class="resultado" placeholder="0" disabled="disabled" />
+            
+            <div class="row2">
+              <button onclick="calcular('acao', 'c')" type="button" class="btn2 clear">C</button>
+              <button onclick="calcular('acao', '/')" type="button" class="btn2">/</button>
+              <button onclick="calcular('acao', '*')" type="button" class="btn2">x</button>
+            </div>
+
+            <div class="row2">
+              <button onclick="calcular('valor', 7)" type="button" class="btn2  ">7</button>
+              <button onclick="calcular('valor', 8)" type="button" class="btn2 ">8</button>
+              <button onclick="calcular('valor', 9)" type="button" class="btn2 ">9</button>
+              <button onclick="calcular('acao', '-')" type="button" class="btn2 ">-</button>
+            </div>
+            
+            <div class="row2">
+              <button onclick="calcular('valor', 4)" type="button" class="btn2 ">4</button>
+              <button onclick="calcular('valor', 5)" type="button" class="btn2 ">5</button>
+              <button onclick="calcular('valor', 6)" type="button" class="btn2 ">6</button>
+              <button onclick="calcular('acao', '+')" type="button" class="btn2 ">+</button>
+            </div>
+
+            <div class="row2">
+              <button onclick="calcular('valor', 1)" type="button" class="btn2">1</button>
+              <button onclick="calcular('valor', 2)" type="button" class="btn2">2</button>
+              <button onclick="calcular('valor', 3)" type="button" class="btn2">3</button>
+              <button onclick="calcular('acao', '=')" type="button" class="btn2 enter">=</button>
+            </div>
+
+            <div class="row2">
+              <button onclick="calcular('valor', 0)" type="button" class="btn2 zero">0</button>
+              <button onclick="calcular('acao', '.')" type="button" class="btn2 ponto ">.</button>
+            </div>
+          </div>
+    </div>
+    <script src="./script.js"></script>   
+  </body>	
+
+</html>
